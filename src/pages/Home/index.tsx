@@ -3,6 +3,7 @@ import "./home.css";
 import { Cards, Footers } from "../../components";
 import Navbar from "../Navbar";
 import { Container, Row, Stack } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export interface IHomeProps {}
 
@@ -21,7 +22,9 @@ export default class Home extends React.Component<IHomeProps> {
             gap={3}
           >
             <div className="p-2">
-              <Cards />
+              <Link to="/users/42">
+                <Cards />
+              </Link>
             </div>
             <div className="p-2">
               <Cards />
@@ -55,7 +58,7 @@ export default class Home extends React.Component<IHomeProps> {
           <br />
         </Row>
         <Row>
-          <Footers/>
+          <Footers />
         </Row>
       </Container>
     );
