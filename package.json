@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +13,18 @@
     "@types/node": "^16.18.79",
     "@types/react": "^18.2.52",
     "@types/react-dom": "^18.2.18",
+    "bootstrap": "^5.3.2",
+    "framer-motion": "^11.0.3",
+    "holderjs": "^2.9.9",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.0",
     "react-dom": "^18.2.0",
+    "react-holder": "^1.0.0",
+    "react-holder-component": "^1.0.5",
+    "react-hook-form": "^7.50.0",
+    "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.4",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-holder": "^1.0.37"
   }
 }

@@ -1,0 +1,16 @@
+.image {
+  height: 247px;
+  width: 300px;
+  border-radius: 15px;
+  /* background-color: aqua; */
+}
+/* .image  */
+.unsplash {
+  border-radius: 15px 15px 0px 0px;
+  height: 247px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 300px;
+}

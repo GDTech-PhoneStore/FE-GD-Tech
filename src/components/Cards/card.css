@@ -1,0 +1,57 @@
+.group {
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000014;
+  height: 350px;
+  width: 300px;
+}
+.group .overlap-group {
+  background-color: #ffffff;
+  border: 0.5px solid;
+  border-color: #00000080;
+  border-radius: 15px;
+  height: 351px;
+  position: relative;
+  width: 301px;
+}
+.group .unsplash {
+  height: 247px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 300px;
+}
+.group .text-wrapper {
+  color: #000000;
+  font-family: "Montserrat-SemiBold", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 259px;
+  white-space: nowrap;
+}
+.group .div {
+  color: #586ee0;
+  font-family: "Montserrat-ExtraBold", Helvetica;
+  font-size: 12px;
+  font-weight: 800;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 287px;
+}
+.group .text-wrapper-2 {
+  color: #00000080;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 312px;
+}
