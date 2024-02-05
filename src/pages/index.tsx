@@ -1,4 +1,4 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
-
-export { Navbar, Home };
+import Details from "./Details";
+export { Navbar, Home, Details };
