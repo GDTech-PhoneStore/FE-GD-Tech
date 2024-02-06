@@ -16,7 +16,7 @@ export default class Cards extends React.Component<ICardsProps> {
         <Card.Body>
           <Card.Title>Iphone X Pro</Card.Title>
           <Card.Text>Rp. 20.000</Card.Text>
-          <div className="text-wrapper-2">250 Terjual</div>
+          {/* <div className="text-wrapper-2">250 Terjual</div> */}
         </Card.Body>
       </Card>
     );

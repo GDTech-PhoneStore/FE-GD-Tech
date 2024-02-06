@@ -1,6 +1,12 @@
 .home {
   background-color: #353535;
 }
+
+@media (max-width: 767px) {
+  .card {
+      margin-top:20px;
+    }
+}
 /* .home .div-2 {
   background-color: #353535;
   height: 1962px;

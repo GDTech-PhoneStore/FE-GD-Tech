@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./navbar.css";
-import { Button, Form, Stack } from "react-bootstrap";
+import { Button, Col, Form, Image, Stack } from "react-bootstrap";
 export interface INavbarProps {}
 
 export default class Navbar extends React.Component<INavbarProps> {
@@ -8,9 +8,11 @@ export default class Navbar extends React.Component<INavbarProps> {
     return (
       <Stack direction="horizontal" className="navbar" gap={3}>
         <div className="p-2">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <img src="gd.png" alt="" width="200" height="200" />
-          </a>
+          <Col xs={6} md={4}>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <Image src="gd.png" fluid />
+            </a>
+          </Col>
         </div>
         <div className="p-2 ms-auto">
           <Form.Control type="text" placeholder="Search" />
