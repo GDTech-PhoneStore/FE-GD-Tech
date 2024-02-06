@@ -2,7 +2,7 @@ import * as React from "react";
 import "./home.css";
 import { Cards, Footers } from "../../components";
 import Navbar from "../Navbar";
-import { Container, Row, Stack } from "react-bootstrap";
+import { Container, Row, Col, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export interface IHomeProps {}
@@ -14,49 +14,25 @@ export default class Home extends React.Component<IHomeProps> {
         <Row>
           <Navbar />
         </Row>
-        <Row className="home">
-          <br />
-          <Stack
-            direction="horizontal"
-            className="align-items-center justify-content-center"
-            gap={3}
-          >
-            <div className="p-2">
-              <Link to="/users/42">
-                <Cards />
-              </Link>
-            </div>
-            <div className="p-2">
+        <Row className="home justify-content-md-center">
+          <div>&nbsp;</div>
+          <Col xs="auto" md="auto">
+            <Link to="/users/42">
               <Cards />
-            </div>
-            <div className="p-2">
-              <Cards />
-            </div>
-            <div className="p-2">
-              <Cards />
-            </div>
-          </Stack>
-
-          <Stack
-            direction="horizontal"
-            className="align-items-center justify-content-center"
-            gap={3}
-          >
-            <div className="p-2">
-              <Cards />
-            </div>
-            <div className="p-2">
-              <Cards />
-            </div>
-            <div className="p-2">
-              <Cards />
-            </div>
-            <div className="p-2">
-              <Cards />
-            </div>
-          </Stack>
-          <br />
+            </Link>
+          </Col>
+          <Col xs="auto" md="auto">
+            <Cards />
+          </Col>
+          <Col xs="auto" md="auto">
+            <Cards />
+          </Col>
+          <Col xs="auto" md="auto">
+            <Cards />
+          </Col>
+          <div>&nbsp;</div>
         </Row>
+
         <Row>
           <Footers />
         </Row>
